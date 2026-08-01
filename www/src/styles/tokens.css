@@ -1,0 +1,99 @@
+/* ==========================================================================
+   Study Mate — Design Tokens
+   Palet profesional bertema pelajar: navy gelap + hijau aksen + netral abu-slate.
+   Tidak ada neon / glow. Semua shadow lembut, radius kecil-konsisten.
+   ========================================================================== */
+
+:root {
+  /* -- Warna dasar -- */
+  --color-navy-950: #0f1c38;
+  --color-navy-900: #142442;
+  --color-navy-800: #1c2f52;
+  --color-navy-700: #2a3d63;
+
+  --color-green-600: #1f9d63;
+  --color-green-500: #2fa971;
+  --color-green-100: #e3f5ec;
+
+  --color-slate-50: #f7f8fa;
+  --color-slate-100: #eef0f4;
+  --color-slate-200: #e1e4ea;
+  --color-slate-300: #c7ccd6;
+  --color-slate-400: #9aa1b0;
+  --color-slate-500: #6b7280;
+  --color-slate-600: #4b5163;
+  --color-slate-700: #333a4d;
+  --color-slate-800: #202636;
+
+  --color-white: #ffffff;
+
+  --color-success: #1f8a5f;
+  --color-success-bg: #e7f5ee;
+  --color-warning: #b3760c;
+  --color-warning-bg: #fbf1de;
+  --color-danger: #c2422f;
+  --color-danger-bg: #fbeae7;
+  --color-info: #33629e;
+  --color-info-bg: #e9f0fa;
+
+  /* -- Peran semantik -- */
+  --bg-app: var(--color-slate-50);
+  --bg-surface: var(--color-white);
+  --bg-sidebar: var(--color-navy-950);
+  --bg-sidebar-active: var(--color-navy-800);
+
+  --text-primary: var(--color-slate-800);
+  --text-secondary: var(--color-slate-500);
+  --text-inverse: var(--color-slate-100);
+  --text-inverse-muted: #93a3bb;
+
+  --border-subtle: var(--color-slate-200);
+  --border-strong: var(--color-slate-300);
+
+  --accent: var(--color-green-600);
+  --accent-hover: #187f51;
+  --accent-soft: var(--color-green-100);
+
+  /* -- Tipografi -- */
+  --font-display: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-base: 0.9375rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.625rem;
+  --fs-2xl: 2rem;
+
+  /* -- Spacing scale -- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+
+  /* -- Radius (kotak, sedikit melengkung — bukan kapsul) -- */
+  --radius-sm: 5px;
+  --radius-md: 7px;
+  --radius-lg: 10px;
+
+  /* -- Shadow tipis & natural, tanpa glow -- */
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 10px rgba(15, 23, 42, 0.08), 0 1px 3px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 12px 24px rgba(15, 23, 42, 0.12), 0 2px 6px rgba(15, 23, 42, 0.06);
+
+  /* -- Transisi halus -- */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur-fast: 120ms;
+  --dur-base: 180ms;
+
+  --sidebar-width: 240px;
+  --topbar-height: 60px;
+}
