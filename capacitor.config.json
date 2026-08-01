@@ -1,0 +1,9 @@
+{
+  "appId": "com.studymate.sm.cid",
+  "appName": "Study Mate",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false
+  }
+}
